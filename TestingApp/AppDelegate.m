@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TestingApp-Swift.h"
+#import <Realm/Realm.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    PrintManager *manager = [[PrintManager alloc] init];
+    NSLog(@"%@", [manager printSomeStuff]);
+    RLMRealm *realm = [RLMRealm defaultRealm];
+    [realm beginWriteTransaction];
+    [realm cancelWriteTransaction];
     return YES;
 }
 
