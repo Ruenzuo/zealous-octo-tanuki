@@ -575,7 +575,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "TestingApp WatchKit 1 Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ruenzuo.TestingApp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruenzuo.TestingApp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "62196f64-48f8-4cc7-8509-91a90dba7738";
 				SKIP_INSTALL = YES;
@@ -588,7 +588,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "TestingApp WatchKit 1 Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ruenzuo.TestingApp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruenzuo.TestingApp.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "497364c6-9544-4418-8719-f70a97e03bef";
 				SKIP_INSTALL = YES;
